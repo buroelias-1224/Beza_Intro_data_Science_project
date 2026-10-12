@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.streamlit/
+data/raw/books_raw.csv
+data/images/*
+!data/images/.gitkeep
+models/*.joblib
+report/*.png
+report/metrics.json
