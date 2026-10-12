@@ -1,11 +1,11 @@
-# Book Detective
+Book Detective
 
 This is a small machine learning project about books.
 
 The main goal is to predict if a book is **Fiction** or **Nonfiction** using
 information scraped from [Books to Scrape](https://books.toscrape.com/).
 
-## Note
+Note
 
 This project is meant for learning. If you use it for coursework, make sure you
 understand the code and write your own explanation in the final report.
@@ -22,7 +22,7 @@ The project follows these steps:
 6. Evaluate the model.
 7. Use a Streamlit app to test predictions.
 
-## Project folders
+Project folders
 
 ```text
 book_detective_project/
@@ -45,7 +45,7 @@ book_detective_project/
 |-- README.md
 ```
 
-## Setup
+Setup
 
 Create a virtual environment:
 
@@ -65,7 +65,7 @@ Install the packages:
 pip install -r requirements.txt
 ```
 
-## How to run the project
+How to run the project
 
 Run the scripts in this order:
 
@@ -83,7 +83,7 @@ Then start the Streamlit app:
 streamlit run app/streamlit_app.py
 ```
 
-## What each script does
+What each script does
 
 `scrape.py`
 
@@ -110,7 +110,7 @@ trained model is saved in the `models` folder.
 Checks the model performance using a train/test split and cross validation. It
 also saves a confusion matrix and metrics in the `report` folder.
 
-## Features used by the model
+Features used by the model
 
 The model uses:
 
@@ -123,7 +123,7 @@ The model uses:
 - whether the title has a question mark
 - basic cover colour features
 
-## Streamlit app
+Streamlit app
 
 The app lets a user type in a book title, price, rating, and rough cover colour.
 It then predicts if the book is Fiction or Nonfiction.
